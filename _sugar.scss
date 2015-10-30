@@ -1,0 +1,72 @@
+/*
+SUGAR!!!
+----------------------------------------------------------------------
+A pretty sweet Sass Mixin Library by Eric Stout (@buschschwick) @ Factor1 Studios
+
+http://www.factor1studios.com
+https://bitbucket.org/factr1/sugar
+
+View the Readme for more information
+----------------------------------------------------------------------
+*/
+
+@mixin background-cover{
+	background-size: cover !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-ms-background-size: cover !important;
+}
+
+@mixin background-size($bgsize){
+	background-size: $bgsize;
+	-webkit-background-size: $bgsize;
+	-moz-background-size: $bgsize;
+	-ms-background-size: $bgsize;
+}
+
+@mixin border-radius ($radius){
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}
+
+@mixin transition($speed){
+	transition: all $speed ease;
+	-webkit-transition: all $speed ease;
+	-moz-transition: all $speed ease;
+	-o-transition: all $speed ease;
+}
+
+@mixin box-shadow($box-shadow){
+	box-shadow: $box-shadow;
+	-webkit-box-shadow: $box-shadow;
+	-moz-box-shadow: $box-shadow;
+}
+
+@mixin column-count($count){
+	column-count: $count;
+	-webkit-column-count: $count;
+	-moz-column-count: $count;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}  
+}
+
+@mixin col-count($cols){
+	-webkit-column-count: $cols; 
+    -moz-column-count: $cols; 
+    column-count: $cols;
+}
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
