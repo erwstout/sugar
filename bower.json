@@ -1,0 +1,25 @@
+{
+  "name": "sugar",
+  "homepage": "https://github.com/buschschwick/Sugar",
+  "authors": [
+    "Eric Stout <hello@ericwstout.com>"
+  ],
+  "description": "An easy to use mixin library that makes your projects just a little sweeter.",
+  "main": "_sugar.scss",
+  "moduleType": [],
+  "keywords": [
+    "Sass",
+    "Scss",
+    "Mixins",
+    "Sugar",
+    "more-sugar"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
