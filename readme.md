@@ -1,12 +1,14 @@
-## SUGAR!!!
-A pretty sweet Sass Mixin Library.
+## Sugar!!!
 
-Using Sugar is pretty straight forward. Copy the .scss file into your directory and include it in your .scss file and that's it. You're done. 
+An easy to use sass mixin library that makes your projects just a little sweeter.
+
+You can copy the _sugar.scss file to your project and get going... 
 
 OR:
 
 Install using Bower.
-`$ bower install sugar-mixins`
+
+`$ bower install more-sugar`
 
 ##Updates
 * 10/29/15 - Creates a bower package.
@@ -19,8 +21,6 @@ Install using Bower.
 ##List of Current Mixins
 
 ```
-#!sass
-
 @include background-cover
 @include background-size($bgsize)
 @include border-radius ($radius)

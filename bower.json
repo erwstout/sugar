@@ -4,7 +4,7 @@
   "authors": [
     "Eric Stout <hello@ericwstout.com>"
   ],
-  "description": "An easy to use mixin library that makes your projects just a little sweeter.",
+  "description": "An easy to use sass mixin library that makes your projects just a little sweeter.",
   "main": "_sugar.scss",
   "moduleType": [],
   "keywords": [
