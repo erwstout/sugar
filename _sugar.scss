@@ -59,13 +59,13 @@ View the Readme for more information
   ::-webkit-input-placeholder {@content}
   :-moz-placeholder           {@content}
   ::-moz-placeholder          {@content}
-  :-ms-input-placeholder      {@content}  
+  :-ms-input-placeholder      {@content}
 }
 
 @mixin col-count($cols){
-	-webkit-column-count: $cols; 
-    -moz-column-count: $cols; 
-    column-count: $cols;
+	-webkit-column-count: $cols;
+  -moz-column-count: $cols;
+  column-count: $cols;
 }
 
 @mixin centerer {
@@ -75,4 +75,9 @@ View the Readme for more information
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+@function rem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
 }
