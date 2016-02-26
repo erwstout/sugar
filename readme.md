@@ -15,6 +15,7 @@ And include in your application `.scss` file:
 `@import sugar/sugar;`
 
 ##Updates
+* 02/26/16 - Adds aspect ratio mixin.
 * 02/10/16 - Adds rem calculator function.
 * 10/29/15 - Creates a bower package.
 * 9/16/15 - Added a center mixin to horizontally and vertically center elements.
@@ -35,6 +36,7 @@ And include in your application `.scss` file:
 @include placeholder{ your styles }
 @include col-count($cols)
 @include centerer
+@include aspect-ratio($width,$height)
 
 // functions
 rem($size);
