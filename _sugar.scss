@@ -77,7 +77,19 @@ View the Readme for more information
   -ms-transform: translate(-50%, -50%);
 }
 
+// rem size calc
 @function rem($size) {
   $remSize: $size / 16px;
   @return #{$remSize}rem;
+}
+
+// aspect ratio mixin
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
 }
