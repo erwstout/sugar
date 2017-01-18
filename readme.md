@@ -1,4 +1,4 @@
-## Sugar!!!
+## [DEPRECATED]  Sugar!!!
 
 An easy to use sass mixin library that makes your projects just a little sweeter.
 
